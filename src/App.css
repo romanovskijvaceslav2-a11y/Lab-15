@@ -1,0 +1,63 @@
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.head {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.head nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.head a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.section {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.section img {
+  max-width: 100%;
+}
+
+.article {
+  background-color: #fafafa;
+  padding: 1rem;
+  border-left: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+}
+
+.aside {
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: sticky;
+  bottom: 0;
+}
